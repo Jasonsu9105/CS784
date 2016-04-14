@@ -31,6 +31,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style>
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	}
+	th, td {
+    padding: 5px;
+    text-align: left;
+	}
+</style>
 
 </head>
 
@@ -117,27 +127,50 @@
             </div>
         </div>
     </section>
-<!--
+
 <section class="bg-primary" id="phase3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"><font color="white">Phase - 3</font></h2>
-                    <hr class="light">
-                    <p class="text-faded">^^^.
-                        <br>^^^^.</p>
+                    <h2 class="section-heading"><font color="white">Stage III</font></h2>
+                    <hr class="light" >
+                   <!--<p class="text-faded" style = "color:black "><strong> Average precision, recall and F1 for set X:</strong>
+                    <br>Precision = 0.966 <br> Recall = 0.876<br>F1 = 0.919                       <br> <br><strong>Average precision, recall and F1 for set Y: </strong><br>Precision = 0.963 <br> Recall = 0.882<br>F1 = 0.921 </p>
                     <br>
-			<a href="phase3/iter4-labeled-data-v4.csv" class="btn btn-default btn-xl" target="_blank">Golden Data</a>
+                    -->
+                    <table style="width:100%; color:black">
+ 						 <caption style = "color:black "><strong>5-fold cross validation Result</strong></caption>
+  						 <tr>
+   						 <th>DataSet</th>
+   						 <th>Precision</th>
+   						 <th>Recall</th>
+   						 <th>F1</th>
+   						 </tr>
+   						 <tr>
+   						 <td>Set X</td>
+    					<td>0.966 </td>
+    					<td>0.876 </td>
+    					<td>0.919</td>
+ 						 </tr>
+  							<tr>
+   						 <td>Set Y</td>
+   						 <td>0.963 </td>
+   						 <td>0.882 </td>
+   						 <td> 0.921 </td>
+ 						 </tr>
+						</table>
+			<!--<a href="phase3/iter4-labeled-data-v4.csv" class="btn btn-default btn-xl" target="_blank">Golden Data</a>
 
                     <a href="link" class="btn btn-default btn-xl" target="_blank">Matching Explanation</a>
 
-                    <a href="link" class="btn btn-default btn-xl" target="_blank">IPython file</a>
-                    <a href="link" class="btn btn-default btn-xl" target="_blank">Final Matches</a>
+                    <a href="link" class="btn btn-default btn-xl" target="_blank">!!</a>
+                    <a href="link" class="btn btn-default btn-xl" target="_blank">!!</a> -->
 
                 </div>
             </div>
         </div>
     </section>
+    <!--
 <section class="bg-primary1" id="f1">
         <div class="container">
             <div class="row">
